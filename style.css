@@ -3,6 +3,27 @@ html{
 }
 #logo{
 
-    height: 400px ;
-    width: 700px;
+    border-radius: 10px;
+    filter: drop-shadow( 5px 15px 10px rgb(108, 107, 107));
+    height: 100% ;
+    width: 100%;
+    align-items: center;
+}
+
+.spidy__sleeping{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#tomimg{
+    display: flex;
+    float: left;
+    filter: drop-shadow(5px 15px 10px grey);
+
+}
+.main > h2{
+    justify-content: flex-end;
+    font-size: 2rem;
+    line-height: 20px;
 }
