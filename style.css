@@ -22,8 +22,10 @@ html{
     filter: drop-shadow(5px 15px 10px grey);
 
 }
-.main > h2{
+  
+.main{
     justify-content: flex-end;
-    font-size: 2rem;
     line-height: 20px;
+    background-color: whitesmoke;
+    scroll-behavior: auto;
 }
