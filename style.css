@@ -1,6 +1,16 @@
 html{
     background-color: hsla(346, 100%, 50%, 0.175);
 }
+h1{ 
+  text-align: center;
+    align-items: center;
+        font-size: 4rem;
+        font-family: "Bangers";
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1px;
+
+}
 #logo{
 
     border-radius: 10px;
@@ -11,21 +21,54 @@ html{
 }
 
 .spidy__sleeping{
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    margin: 10px;
     justify-content: center;
     align-items: center;
-    display: flex;
-}
+   
 
-#tomimg{
-    display: flex;
+}
+.contAiner{
+   padding: 20px;
+   margin-top: 20PX;    
+}
+#peter{
+    display: inline;
     float: left;
-    filter: drop-shadow(5px 15px 10px grey);
+    height: 400PX;
+    /* filter: drop-shadow(1px 15px 10px grey); */
 
 }
-  
+.my_button{
+    display: inline;
+    font-size: 2rem;
+    font-family:"Bangers" ;
+    color: white;
+    background-color: red;
+    
+}
+#content{
+    font-family:"Bangers"
+}
 .main{
+    display: flex;
     justify-content: flex-end;
     line-height: 20px;
     background-color: whitesmoke;
     scroll-behavior: auto;
+}
+#main{
+ margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#button2
+{
+justify-content: center;
 }
